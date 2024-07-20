@@ -1,0 +1,206 @@
+body {
+    font-size: 13px;
+    line-height: 1.8;
+    color: black;
+    background-image: url('—Pngtree—geometric neon geometric forms and_1179018.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; 
+    background-color: black;
+    color: white;
+    height: 90px;
+    font-size: large;
+}
+
+header .logo img {
+    height: 100px;
+    max-height: 100%;
+    width: 150px;
+    padding-left: 2px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+header nav ul li a:hover{
+    color: #5ac8d9;
+}
+
+main {
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 586px;
+    background: rgb(58, 56, 56);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    color: white;
+    font-size: large;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.gender {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center; 
+}
+
+.gender h5 {
+    color: white; 
+    font-size: 18px; 
+    margin-top:0rem;
+    margin-right:15rem;
+    
+}
+
+.gender-option {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: large;
+}
+
+.gender-option input {
+    margin-right: 10px; 
+    transform: scale(1.2); 
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+select:focus {
+    border-color: #007bff; 
+    background-color: #333;
+    color: #fff; 
+    outline: none; 
+}
+
+select option {
+    background-color: rgb(58, 56, 56); 
+    color: white; 
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;  
+    background: transparent;
+    font-size: 16px;
+    color: white; 
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.input-container input:focus {
+    outline: none;
+    border-bottom: 1px solid #007bff; 
+}
+
+.input-container input:focus::placeholder {
+    color: transparent;
+}
+
+.input-container input::placeholder {
+    color: white;
+    font-size: 16px;
+}
+
+input:focus ~ label,
+input:not(:placeholder-shown) ~ label {
+    top: -10px;
+    left: 0;
+    font-size: 12px;
+    color: #1d97e3; 
+}
+
+label {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    font-size: 16px;
+    color: white;
+    transition: 0.2s ease all;
+    pointer-events: none;
+}
+
+button {
+    padding: 15px;
+    background-color: #1d97e3; 
+    color: black;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #5ac8d9; 
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
